@@ -2,7 +2,7 @@
 KIMM polaris3d application with Padna Robot Arm & Moveit
 
 ## 1. Prerequisites
-### 1.1 Moveit configurationRobot controller
+### 1.1 Moveit configuration
 ```bash
 git clone https://github.com/jspark861102/panda_moveit_config.git.git -b noetic-devel
 ```
