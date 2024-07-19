@@ -22,6 +22,7 @@ git clone https://github.com/jspark861102/kimm_polaris3d_moveit.git
 ## 2. Run
 ```bash
 # beverage delivery task
-roslaunch kimm_polaris3d_moveit move_to_start.launch
-python3 /scripts/move_tostart.py
+roslaunch robotiq_2f_gripper_control robotiq_action_server_ns0.launch
+roslaunch kimm_moveit move_to_start.launch 
+python3 /scripts/move_to_start.py
 ```

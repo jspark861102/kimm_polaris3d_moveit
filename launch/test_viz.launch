@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<launch>  
+
+  <!-- rqt -->    
+  <node type="rviz" name="rviz" pkg="rviz" args="-d $(find kimm_moveit)/rviz/test_rviz.rviz" />       
+  
+</launch>
+
+
